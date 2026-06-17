@@ -139,4 +139,18 @@ document.addEventListener('DOMContentLoaded', () => {
     GLightbox({ touchNavigation: true, loop: true, autoplayVideos: true });
   }
 
+  // Auto-generate poster from actual first frame for all videos
+  document.querySelectorAll('video').forEach(video => {
+    video.preload = 'metadata';
+    video.addEventListener('loadedmetadata', () => { video.currentTime = 0.01; });
+    video.addEventListener('seeked', function capture() {
+      const c = document.createElement('canvas');
+      c.width = video.videoWidth;
+      c.height = video.videoHeight;
+      c.getContext('2d').drawImage(video, 0, 0);
+      try { video.poster = c.toDataURL('image/jpeg', 0.85); } catch(e) {}
+      video.removeEventListener('seeked', capture);
+    });
+  });
+
 });
