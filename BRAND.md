@@ -14,9 +14,25 @@
 | Institution | Bar-Ilan University, Department of Physics |
 | PI | Prof. Lev Khaykovich |
 | Location | Ramat Gan, Israel |
-| Website | [GitHub Pages — to be updated with domain] |
+| Email | lev.khaykovich@biu.ac.il |
+| Website | https://jeanpatrick27.github.io/lilab-site/ (move to custom domain before launch) |
+| Lab founded | ~2004 (first BIU-era publications appear 2006) |
 
 **What "Li" stands for:** Lithium — the element the lab works with. LiLab = Lithium Lab.
+
+---
+
+## Prof. Lev Khaykovich — Key Bio Facts
+
+Use these when writing LinkedIn posts, bios, or PDFs. Do not invent details beyond what is listed here.
+
+- **Title:** Full Professor, Department of Physics, Bar-Ilan University
+- **Pre-BIU career:** Postdoctoral researcher at ENS Paris (group of Prof. Christophe Salomon)
+- **Landmark early work:** Co-author of the 2002 *Science* paper demonstrating the first matter-wave bright soliton train in a BEC — one of the foundational experiments in ultracold atom physics
+- **Efimov physics:** Over 15 years of foundational contributions; published key results in *Physical Review Letters* and *Nature Communications*
+- **Publications:** 50+ peer-reviewed papers (2001–present)
+- **Current focus:** BEC machine completed 2025 — now launching the science phase across three research frontiers (Higher-Order Interactions, Coherent Few-Body Physics, Ultracold Chemistry)
+- **Recruiting:** Postdocs, PhD students, and MSc students
 
 ---
 
